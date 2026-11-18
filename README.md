@@ -2,6 +2,23 @@
 
 A landscape multiplayer card game for Android and iOS, built with **Flutter** and **Dart**. It adapts the classic Shed (Palace) rules for local pass-and-play and private online matches. Players play through their hand, face-up cards, and face-down cards. The last player with cards loses.
 
+
+## Screenshots
+
+![Main menu with online play, a friendly match against the computer, and private rooms](main-menu.png)
+
+*Main menu · Choose a game mode or create and join a private room.*
+
+| Welcome and sign-in | In-app rules |
+| --- | --- |
+| ![Welcome screen with guest, Google, and Apple sign-in options](welcome.png) | ![Hebrew how-to-play screen explaining the objective and setup](how-to-play.png) |
+
+### Online arenas
+
+| Rookie | Diamond | Obsidian |
+| --- | --- | --- |
+| ![Rookie arena selection](rookie-arena.png) | ![Diamond arena selection](diamond-arena.png) | ![Obsidian arena selection](obsidian-arena.png) |
+
 ## Gameplay
 
 - Play locally or create a private online room for friends.
