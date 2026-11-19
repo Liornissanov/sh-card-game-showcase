@@ -3,6 +3,16 @@
 A landscape multiplayer card game for Android and iOS, built with **Flutter** and **Dart**. It adapts the classic Shed (Palace) rules for local pass-and-play and private online matches. Players play through their hand, face-up cards, and face-down cards. The last player with cards loses.
 
 
+## Tech Stack
+
+| Area | Technology and role |
+| --- | --- |
+| Frontend | Flutter and Dart for Android and iOS |
+| Backend | Dart multiplayer server on Render. A shared pure-Dart game engine handles rules and move validation. |
+| Database and authentication | Supabase Auth and PostgreSQL for player accounts and coin balances |
+| Communication | Secure WebSockets (WSS) for online gameplay, with typed messages shared by the app and server |
+| Development and release | Flutter and Dart SDKs for development. Mobile builds are distributed through TestFlight and Google Play testing. |
+
 ## Screenshots
 
 ![Main menu with online play, a friendly match against the computer, and private rooms](main-menu.png)
